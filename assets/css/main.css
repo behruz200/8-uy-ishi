@@ -1,0 +1,99 @@
+
+@font-face {
+  font-family: roboto;
+  src: url(../css/fonts/Roboto-LightItalic.ttf)
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1280px;
+  border: 1px solid;
+}
+
+.p {
+  color: #3C4043;
+}
+
+.p:hover {
+  color: red;
+  transition: .5s;
+}
+
+.a {
+  display: flex;
+  gap: 20px;
+}
+
+.header {
+  width: 1280px;
+  height: 56px;
+  display: flex;
+  gap: 300px;
+  align-items: center;
+  justify-content: center;
+}
+.i{
+   background-color: black;
+   color: white;
+   border-radius: 50% 50% 50% 50%;
+}
+
+main {
+  width: 1280px;
+  height: 600px;
+  background-image: url("../img/main.png");
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.cursor{
+  cursor: pointer;
+}
+.cursor1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+
+}
+
+.btn{
+  display: flex;
+  gap: 26px;
+  margin-left: 129px;
+}
+.btn p{
+  margin-top: 10px;
+}
+.btn button{
+  width: 143px;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid black;
+}
+.btn button:hover{
+  background-color: black;
+  color: white;
+  border-color: red;
+  transition: 1s;
+}
+main h1{
+  margin-left: 129px;
+  font-size: 57px;
+  margin-top: 164px;
+}
+main p{
+  margin-left: 129px;
+}
+.p1{
+  margin-left: 0px;
+}
